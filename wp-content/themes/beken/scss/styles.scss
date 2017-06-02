@@ -1,0 +1,12 @@
+//Include core files
+@import 'core/grid';
+@import 'core/reset';
+@import 'core/mixins';
+
+//Include default project files
+@import 'project/colors';
+@import 'project/fonts';
+@import 'project/main';
+@import 'project/header';
+@import 'project/footer';
+@import 'project/blocks';

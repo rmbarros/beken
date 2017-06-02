@@ -1,0 +1,47 @@
+#footer{
+    background-color: $black;
+    .grid-inner{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-size: 0;
+        >div{
+            display: inline-block;
+            h3{
+                @include cormorantregular;
+                color: $white;
+                font-size: 24px;
+                line-height: 44px;
+            }
+            p{
+                @include opensans;
+                font-size: 14px;
+                line-height: 28px;
+                color: $white;
+                a{
+                    color: $white;
+                    text-decoration:none;
+                }
+            }
+
+            ul{
+                padding:0;
+                list-style: none;
+                li{
+                    padding-left: 0;
+                    @include opensans;
+                    font-size: 14px;
+                    line-height: 28px;
+                    color: $white;
+                    a{
+                        display:block;
+                        @include opensans;
+                        font-size: 14px;
+                        line-height: 28px;
+                        text-decoration: none;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+$maxwidth:1224;
+$totalcols:12;
+
+.grid-container{
+    width:100%;
+    position: relative;
+    text-align: center;
+    .grid-inner{
+        width: 100%;
+        max-width: $maxwidth+px;
+        margin:0 auto;
+        text-align: left;
+        padding:0 10px;
+    }
+}
+
+@mixin col-x($totalCols) {
+    $col: 100% / $totalCols;
+    @for $i from 1 through $totalCols {
+        .col-#{$i}-#{$totalCols} {
+            padding: 0 10px;
+            width: $col * $i;
+        }
+        .col-offset-#{$i}-#{$totalCols} {
+            margin-left:($col * $i);
+        }
+    }
+}
+@mixin col-m-x($totalCols) {
+    $col: 100% / $totalCols;
+    @for $i from 1 through $totalCols {
+        .col-m-#{$i}-#{$totalCols} {
+            padding: 0 10px;
+            width: $col * $i;
+        }
+        .col-m-offset-#{$i}-#{$totalCols} {
+            margin-left:($col * $i);
+        }
+    }
+}
+@mixin col-t-x($totalCols) {
+    $col: 100% / $totalCols;
+    @for $i from 1 through $totalCols {
+        .col-t-#{$i}-#{$totalCols} {
+            padding: 0 10px;
+            width: $col * $i;
+        }
+        .col-t-offset-#{$i}-#{$totalCols} {
+            margin-left:($col * $i);
+        }
+
+    }
+    .col-t-offset-0-#{$totalCols}{
+        margin-left: auto;
+    }
+}
+@mixin col-tm-x($totalCols) {
+    $col: 100% / $totalCols;
+    @for $i from 1 through $totalCols {
+        .col-tm-#{$i}-#{$totalCols} {
+            padding: 0 15px;
+            width: $col * $i;
+        }
+        .col-tm-offset-#{$i}-#{$totalCols} {
+            margin-left:($col * $i);
+        }
+
+    }
+    .col-tm-offset-0-#{$totalCols}{
+        margin-left: auto;
+    }
+}
+@media screen and (min-width:481px){
+    @include col-x($totalcols);
+    @include col-x(4);
+}
+@media screen and (max-width:480px){
+
+    @include col-m-x($totalcols);
+    @include col-m-x(4);
+}
+@media screen and (max-width:560px) and (min-width:481px) {
+
+    @include col-tm-x($totalcols);
+    @include col-tm-x(4);
+}
+@media screen and (max-width:860px) and (min-width:561px){
+
+    @include col-t-x($totalcols);
+    @include col-t-x(4);
+}

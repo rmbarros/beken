@@ -1,0 +1,15 @@
+//The main scss file for the project
+html{
+    overflow-x: hidden;
+}
+.clearfix{
+
+    &:after{
+        display: table;
+        content: '';
+        clear: both;
+    }
+}
+.page-container{
+    padding-top: 155px;
+}

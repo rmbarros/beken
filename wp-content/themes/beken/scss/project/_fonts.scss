@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../assets/fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../assets/fonts/opensans-light-webfont.woff') format('woff'),
+         url('../assets/fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../assets/fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cormorantmedium';
+    src: url('../assets/fonts/cormorant-medium-webfont.woff2') format('woff2'),
+         url('../assets/fonts/cormorant-medium-webfont.woff') format('woff'),
+         url('../assets/fonts/cormorant-medium-webfont.ttf') format('truetype'),
+         url('../assets/fonts/cormorant-medium-webfont.svg#cormorantmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'cormorantregular';
+    src: url('../assets/fonts/cormorant-regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/cormorant-regular-webfont.woff') format('woff'),
+         url('../assets/fonts/cormorant-regular-webfont.ttf') format('truetype'),
+         url('../assets/fonts/cormorant-regular-webfont.svg#cormorantregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@mixin opensans(){
+    font-family: 'open_sanslight', sans-serif;
+    font-weight: 300;
+}
+@mixin cormorantregular{
+    font-family:'cormorantregular', serif;
+    font-weight:300;
+}
+@mixin cormorantmedium{
+    font-family: 'cormorantmedium',serif;
+    font-weight: 300;
+}
