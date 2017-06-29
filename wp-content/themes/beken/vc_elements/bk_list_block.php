@@ -39,6 +39,12 @@ class bkListBlock extends WPBakeryShortCode {
                         'param_name' => 'loop',
                         'group' => 'Content',
                     ),
+                    array(
+                        'type' => 'checkbox',
+                        'heading' => __('Does the block have Background?', 'text-domain'),
+                        'param_name' => 'has_background',
+                        'group' => 'Content'
+                    ),
                     /*array(
                         'type' => 'checkbox',
                         'heading' => __('Is entrance animated?', 'text-domain'),
@@ -64,7 +70,8 @@ class bkListBlock extends WPBakeryShortCode {
         extract(
             shortcode_atts(
                 array(
-                    'loop' => ''
+                    'loop' => '',
+                    'has_background' => false
                     //'is_animated' => false,
                     //'is_doublemargin' => false
                 ),
@@ -72,6 +79,9 @@ class bkListBlock extends WPBakeryShortCode {
             )
         );
         $classes = 'reveal';
+        if($has_background){
+            $classes .= ' has-background';
+        }
         /*if($is_animated){
             $classes .= ' reveal';
         }
@@ -96,7 +106,7 @@ class bkListBlock extends WPBakeryShortCode {
 
                                     $imageUrl = $image['url'];
                                     $html.='
-                                    <div class="col-6-12">
+                                    <div class="col-6-12 col-t-12-12 col-tm-12-12 col-m-12-12">
                                         <div class="inner">
                                             <div class="image">
                                                 <img src="'.$imageUrl.'" alt="" />

@@ -103,7 +103,7 @@ class bkSimpleTextBlock extends WPBakeryShortCode {
             <article class="grid-container">
                 <div class="grid-inner">';
                     if($text_align == 'right'){
-                        $html.='<div class="col-6-12 col-offset-4-12">';
+                        $html.='<div class="col-m-12-12 col-t-8-12 col-t-offset-2-12 col-tm-9-12 col-tm-offset-2-12 col-6-12 col-offset-4-12">';
                     }else{
                         $html.='<div class="col-tm-12-12 col-t-12-12 col-m-12-12 col-9-12">';
                     }

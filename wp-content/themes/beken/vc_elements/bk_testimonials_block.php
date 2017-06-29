@@ -72,51 +72,54 @@ class bkTestimonialsBlock extends WPBakeryShortCode {
         $html = '<section class="bk-block  testimonials-block '.$classes.'">
             <article class="grid-container">
                 <div class="grid-inner">
-                    <div class="scrollpane">
-                        <div class="item">
-                            <h3>
-                                “The team at Becken are a pleasure to work with.
-                                They really have their fingers on the pulse when it comes
-                                to new initiatives in the world of Media Relations.”
-                            </h3>
-                            <p>Rui Guerra, Hawkers Co.</p>
-                        </div>
-                        <div class="item">
-                            <h3>
-                                “The team at Becken are a pleasure to work with.
-                                They really have their fingers on the pulse when it comes
-                                to new initiatives in the world of Media Relations.”
-                            </h3>
-                            <p>Rui Guerra, Hawkers Co.</p>
-                        </div>
-                        <div class="item">
-                            <h3>
-                                “The team at Becken are a pleasure to work with.
-                                They really have their fingers on the pulse when it comes
-                                to new initiatives in the world of Media Relations.”
-                            </h3>
-                            <p>Rui Guerra, Hawkers Co.</p>
-                        </div>
-                        <div class="item">
-                            <h3>
-                                “The team at Becken are a pleasure to work with.
-                                They really have their fingers on the pulse when it comes
-                                to new initiatives in the world of Media Relations.”
-                            </h3>
-                            <p>Rui Guerra, Hawkers Co.</p>
-                        </div>
-                        <div class="item">
-                            <h3>
-                                “The team at Becken are a pleasure to work with.
-                                They really have their fingers on the pulse when it comes
-                                to new initiatives in the world of Media Relations.”
-                            </h3>
-                            <p>Rui Guerra, Hawkers Co.</p>
+                    <div class="slider-container">
+                        <div class="scrollpane">
+                            <div class="item">
+                                <h3>
+                                    “The team at Becken are a pleasure to work with.
+                                    They really have their fingers on the pulse when it comes
+                                    to new initiatives in the world of Media Relations.”
+                                </h3>
+                                <p>Rui Guerra, Hawkers Co.</p>
+                            </div>
+                            <div class="item">
+                                <h3>
+                                    “The team at Becken are a pleasure to work with.
+                                    They really have their fingers on the pulse when it comes
+                                    to new initiatives in the world of Media Relations.”
+                                </h3>
+                                <p>Rui Guerra, Hawkers Co.</p>
+                            </div>
+                            <div class="item">
+                                <h3>
+                                    “The team at Becken are a pleasure to work with.
+                                    They really have their fingers on the pulse when it comes
+                                    to new initiatives in the world of Media Relations.”
+                                </h3>
+                                <p>Rui Guerra, Hawkers Co.</p>
+                            </div>
+                            <div class="item">
+                                <h3>
+                                    “The team at Becken are a pleasure to work with.
+                                    They really have their fingers on the pulse when it comes
+                                    to new initiatives in the world of Media Relations.”
+                                </h3>
+                                <p>Rui Guerra, Hawkers Co.</p>
+                            </div>
+                            <div class="item">
+                                <h3>
+                                    “The team at Becken are a pleasure to work with.
+                                    They really have their fingers on the pulse when it comes
+                                    to new initiatives in the world of Media Relations.”
+                                </h3>
+                                <p>Rui Guerra, Hawkers Co.</p>
+                            </div>
                         </div>
                     </div>
+
                     <div class="counter">
-                        <span class="current">1</span>
-                        <span class="total">/5</span>
+                        <span class="current"></span>
+                        <span class="total"></span>
                     </div>
 
                 </div>

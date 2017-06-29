@@ -93,26 +93,16 @@ class bkHireBlock extends WPBakeryShortCode {
                 <div class="grid-inner">
                     <div class="inner">
 
-                        <div class="col-7-12 col-offset-5-12">
+                        <div class="col-7-12 col-offset-5-12 col-m-12-12">
                             <h2>Hire Us</h2>
-                            <a href="mailto:info@beken.com" class="btn">
+                            <a href="mailto:info@beken.com" class="btn link">
                                 <span class="label">
                                     Plan a Event
                                 </span>
                             </a>
                         </div>
                     </div>
-                    <div class="inner">
-                        <div class="col-7-12 col-offset-5-12">';
-                            $posts = get_posts($postArgs);
-                            if(count($posts)>0){
-                                foreach($posts as $post){
-                                    setup_postdata($post);
-                                    $html.='<a href="'.get_post_permalink($post->ID).'" class="item">'.$post->post_title.'</a>';
-                                }
-                            }
-                        $html.='</div>
-                    </div>
+
                 </div>
             </article>
         </section>';

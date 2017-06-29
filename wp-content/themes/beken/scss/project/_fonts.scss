@@ -29,12 +29,27 @@
 
 }
 
+@font-face {
+    font-family: 'cormorantlight';
+    src: url('../assets/fonts/cormorant-light-webfont.woff2') format('woff2'),
+         url('../assets/fonts/cormorant-light-webfont.woff') format('woff'),
+         url('../assets/fonts/cormorant-light-webfont.ttf') format('truetype'),
+         url('../assets/fonts/cormorant-light-webfont.svg#cormorantlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 @mixin opensans(){
     font-family: 'open_sanslight', sans-serif;
     font-weight: 300;
 }
 @mixin cormorantregular{
     font-family:'cormorantregular', serif;
+    font-weight:300;
+}
+@mixin cormorantlight{
+    font-family:'cormorantlight', serif;
     font-weight:300;
 }
 @mixin cormorantmedium{

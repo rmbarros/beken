@@ -2,15 +2,15 @@
     <footer id="footer">
         <div class="grid-container">
             <div class="grid-inner">
-                <div class="col-6-12 address">
+                <div class="col-6-12 col-tm-5-12 col-m-12-12 address">
                     <h3>Office</h3>
                     <p>
-                        Rua do Borba,6 <br>
-                        1350-047 Lisboa<br>
-                        +351 914 542 345
+                        Rua de Pedrouços, n37 <br>
+                        1400-038 Lisboa<br>
+                        +351 937 213 876
                     </p>
                 </div>
-                <div class="col-3-12 social">
+                <div class="col-3-12 col-tm-3-12 col-m-12-12 social">
                     <h3>Follow</h3>
                     <ul>
                         <li>
@@ -24,12 +24,11 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-3-12 contact">
+                <div class="col-3-12 col-tm-4-12 col-m-12-12 contact">
                     <h3>New Business</h3>
                     <p>
-                        Inês Beken <br>
-                        Founder <br>
-                        <a href="mailTo:ines@beken.com">ines@beken.com</a>
+                        Interested in working with us? <br>
+                        Please contact: <a href="mailTo:ines.beken@ifcomunicacao.com">ines.beken@ifcomunicacao.com</a>
                     </p>
                 </div>
             </div>

@@ -102,10 +102,10 @@ class bkServicosBlock extends WPBakeryShortCode {
         $html = '<section class="bk-block sobre-servicos-block '.$classes.'">
             <article class="grid-container">
                 <div class="grid-inner">
-                    <div class="col-4-12">
+                    <div class="col-4-12 col-tm-5-12 col-m-12-12">
                         <h2>Os nossos serviços</h2>
                     </div>
-                    <div class="col-6-12">
+                    <div class="col-6-12 col-tm-7-12 col-m-12-12">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
                         <ul>
                             <li>
