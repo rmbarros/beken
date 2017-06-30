@@ -44,7 +44,7 @@
                         <h3>New Business</h3>
                         <p>
                             Interested in working with us? <br>
-                            Please contact: <a href="mailTo:ines.beken@ifcomunicacao.com">ines.beken@ifcomunicacao.com</a>
+                            Please contact: <a href="mailTo:ines.beken@ifcomunicacao.pt">ines.beken@ifcomunicacao.pt</a>
                         </p>
                     </div>
                 </div>

@@ -34,7 +34,7 @@
     <header>
         <div class="grid-container">
             <div class="grid-inner">
-                <div id="logo">
+                <a href="/" id="logo">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     	 viewBox="0 0 74.5 99.5" style="enable-background:new 0 0 74.5 99.5;" xml:space="preserve">
                     <path d="M20.7,69.8h8.2v1.8H3.1v-1.8h8.2V30.3H3.1v-1.8h17.6V69.8z M20,12.4c-1.1,1.1-2.4,1.6-4.1,1.6c-1.6,0-3-0.5-4.1-1.6
@@ -48,7 +48,7 @@
                     	c-1.4,0.8-2.4,2.4-2.4,4.2c0,2.7,2.2,4.8,4.8,4.8c2.7,0,4.8-2.2,4.8-4.8C72,7.8,70.6,2.6,63.1,2.6"/>
                     </svg>
 
-                </div>
+                </a>
                 <div id="mobile-btn">
                     <div class="back-circle">
                         <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

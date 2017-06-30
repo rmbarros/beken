@@ -106,7 +106,7 @@ class bkListBlock extends WPBakeryShortCode {
 
                                     $imageUrl = $image['url'];
                                     $html.='
-                                    <div class="col-6-12 col-t-12-12 col-tm-12-12 col-m-12-12">
+                                    <a href="'.get_post_permalink($post->ID).'" class="col-6-12 col-t-12-12 col-tm-12-12 col-m-12-12">
                                         <div class="inner">
                                             <div class="image">
                                                 <img src="'.$imageUrl.'" alt="" />
@@ -114,10 +114,10 @@ class bkListBlock extends WPBakeryShortCode {
                                             <div class="hover-block">
                                                 <h2>'.get_field('titulo_listagem',$post->ID).'</h2>
                                                 <p>'.get_field('tipo_de_trabalho',$post->ID).'</p>
-                                                <a href="'.get_post_permalink($post->ID).'" class="item">Discover</a>
+                                                <div class="item">Discover</div>
                                             </div>
                                         </div>
-                                    </div>';
+                                    </a>';
                                 }
                             }
                     $html.='

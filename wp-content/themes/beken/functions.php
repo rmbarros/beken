@@ -77,6 +77,7 @@ function vc_before_init_actions(){
     require_once(get_template_directory().'/vc_elements/bk_testimonials_block.php');
     require_once(get_template_directory().'/vc_elements/bk_hire_block.php');
     require_once(get_template_directory().'/vc_elements/bk_workslist_block.php');
+    require_once(get_template_directory().'/vc_elements/bk_client_detail_block.php');
 }
 add_filter('the_content', 'removeEmptyParagraphs',99999);
 function removeEmptyParagraphs($content) {
